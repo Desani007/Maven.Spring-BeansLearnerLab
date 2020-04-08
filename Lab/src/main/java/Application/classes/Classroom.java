@@ -1,4 +1,4 @@
-package Application.model;
+package Application.classes;
 
 public class Classroom {
     Instructor instructorList;

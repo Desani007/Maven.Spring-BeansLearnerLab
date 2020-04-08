@@ -1,6 +1,4 @@
-package Application.model;
-
-import java.util.List;
+package Application.classes;
 
 public class Instructor extends Person implements Teacher {
     public Instructor(long id, String name) {

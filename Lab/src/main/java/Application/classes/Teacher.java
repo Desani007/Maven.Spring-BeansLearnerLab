@@ -1,4 +1,4 @@
-package Application.model;
+package Application.classes;
 
 public interface Teacher {
     void teach (Learner learner, double numberOfHours);

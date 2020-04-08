@@ -1,4 +1,4 @@
-package Application.model;
+package Application.classes;
 
 public class Student extends Person implements Learner {
     String name;

@@ -1,4 +1,4 @@
-package Application.model;
+package Application.classes;
 
 import java.util.Iterator;
 import java.util.List;

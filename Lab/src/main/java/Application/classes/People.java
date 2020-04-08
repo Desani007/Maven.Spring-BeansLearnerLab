@@ -1,4 +1,4 @@
-package Application.model;
+package Application.classes;
 
 import java.util.List;
 
@@ -26,14 +26,14 @@ public abstract class People <PersonType extends Person> implements Iterable<Per
         }
     }
 
-    PersonType findByid(Long id){
+    public PersonType findById(Long id){
             for (PersonType p : personList) {
                 if (p.getId() == id) {
                     return p;
                 }
             } return null;
     }
-List<PersonType> findAll(){
+public List<PersonType> findAll(){
         return personList;
 }
 
